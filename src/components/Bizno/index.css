@@ -1,0 +1,51 @@
+.labelBoxBiz {
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.elmInputNumber {
+    width: 100% !important;
+}
+
+.iconLabel {
+    color: red;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+@media (max-width: 414px) {
+    .elmInputNumber {
+        width: 110px !important;
+    }
+}
+
+@media (max-width: 411px) {
+    .elmInputNumber {
+        width: 109px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .elmInputNumber {
+        width: 97px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .elmInputNumber {
+        width: 92px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .elmInputNumber {
+        width: 79px !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .elmInputNumber {
+        width: 65px !important;
+    }
+}

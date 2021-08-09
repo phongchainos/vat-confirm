@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px !important;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1223px;
+    margin: 0 auto;
+    height: 100vh;
+    font-weight: 400 !important;
+    font-size: 18px;
+    /* font-family: "Noto Sans KR" !important; */
+}
+
+.col {
+    height: 100vh;
+}
+
+.boxElm {
+    float: left;
+    min-height: 58%;
+}
+
+.iconLabel {
+    color: red;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+.imgHeader {
+    object-fit: cover;
+    padding: 17px 0;
+    width: 100%;
+    height: 100%;
+    overflow: ;
+}
+
+.elmContent {
+    float: left;
+}
+
+.elmContent p {
+    padding: 5px 0;
+    float: left;
+    margin: 0;
+}
+
+.main {
+    padding: 10px 0;
+}
+
+.fieldForm {
+    padding: 5px 0;
+}
+
+.lawBox {
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+}
+
+/* .fieldForm input {
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+} */
+
+.buttonBox {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.buttonForm {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    color: #ffffff;
+    border-width: 1px;
+    padding: 7px 25px;
+}
+
+.buttonForm:hover {
+    background-color: #000000 !important;
+    border-color: #05bfff !important;
+    color: #05bfff !important;
+    transition: 0.1s;
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    font-size: 1rem;
+}
+
+.butElm12 {
+    width: 85% !important;
+    padding-right: 5px;
+}
+
+.butElm13 {
+    width: 15% !important;
+}
+
+.labelBox {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .butElm12 {
+        width: 79% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 21% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
+
+swal-footer {
+    text-align: center;
+}
+
+@media (max-width: 540px) {
+    .butElm12 {
+        width: 72% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 28% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .butElm12 {
+        width: 69% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 31% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 411px) {
+    .butElm12 {
+        width: 69% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 31% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .butElm12 {
+        width: 65% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 35% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .butElm12 {
+        width: 59% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 41% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .butElm12 {
+        width: 54% !important;
+        padding-right: 5px;
+    }
+    .butElm13 {
+        width: 46% !important;
+    }
+    .buttonForm:disabled {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+        border-width: 1px;
+        padding: 7px 25px;
+        font-size: 1rem;
+    }
+}
